@@ -1,5 +1,7 @@
 let month = 5;
 
+let monthPrint = document.getElementById("month").innerHTML = month;
+
 let msg = document.getElementById("msg");
 switch (month) {
     case 11:
