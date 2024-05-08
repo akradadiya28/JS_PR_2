@@ -1,5 +1,7 @@
 let unit = 300;
 
+let userUnit = document.getElementById("unit").innerHTML = unit;
+
 let amt, totalAmt, surCharge;
 
 if (unit <= 50) {
