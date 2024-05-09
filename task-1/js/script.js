@@ -8,11 +8,13 @@ let amt, totalAmt, surCharge;
 if (unit <= 50) {
     amt = unit * 1;
 } else if (unit <= 150) {
-    amt = 25 + ((unit - 50) * 2);
+    amt = unit * 2;
 } else if (unit <= 250) {
-    amt = 50 + ((unit - 150) * 3);
+    per = (3 / 100) * 20;
+    amt = (unit * 3) + per;
 } else if (unit > 250) {
-    amt = 220 + ((unit - 250) * 4);
+    per = (4 / 100) * 20;
+    amt = (unit * 4) + per;
 }
 
 surCharge = amt * 0.20;
