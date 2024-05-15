@@ -1,4 +1,4 @@
-let unit = 450;
+let unit = 350;
 
 let customerId = document.getElementById("customer").innerHTML = ("NR240803585PS");
 let userUnit = document.getElementById("unit").innerHTML = unit;
